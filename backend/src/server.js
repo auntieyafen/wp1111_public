@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import db from "./db";
 import routes from "./routes";
+import path from 'path'
 // import ScoreCard from "./models/ScoreCard";
 
 const app = express();
